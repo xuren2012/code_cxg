@@ -1,2 +1,0 @@
-I modified,code_cxg.
-This is a test,other commits.
