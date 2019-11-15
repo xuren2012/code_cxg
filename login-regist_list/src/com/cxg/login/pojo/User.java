@@ -3,7 +3,7 @@ package com.cxg.login.pojo;
 /**
  * 这是用户的基本描述类
  * 
- * @author Administrator
+ * @author YTF
  *
  */
 public class User {
