@@ -3,9 +3,9 @@ package com.cxg.login.game;
 import java.util.Scanner;
 
 /**
- * ÕâÊÇ²ÂÊı×ÖĞ¡ÓÎÏ·
+ * è¿™æ˜¯çŒœæ•°å­—å°æ¸¸æˆ
  * 
- * @author Administrator
+ * @author YTF
  *
  */
 public class GuessNumber {
@@ -14,23 +14,23 @@ public class GuessNumber {
 	}
 
 	public static void start() {
-		// ²úÉúÒ»¸öËæ»úÊı
+		// äº§ç”Ÿä¸€ä¸ªéšæœºæ•°
 		int number = (int) (Math.random() * 100) + 1;
-		// ¶¨ÒåÒ»¸öÍ³¼Æ±äÁ¿
+		// å®šä¹‰ä¸€ä¸ªç»Ÿè®¡å˜é‡
 		int count = 0;
 		while (true) {
-			// ¼üÅÌÂ¼ÈëÒ»¸öÊı¾İ
+			// é”®ç›˜å½•å…¥ä¸€ä¸ªæ•°æ®
 			Scanner sc = new Scanner(System.in);
-			System.out.println("ÇëÊäÈëÊı¾İ£¨1-100£©£º");
+			System.out.println("è¯·è¾“å…¥æ•°æ®ï¼ˆ1-100ï¼‰ï¼š");
 			int guessNumber = sc.nextInt();
 			count++;
-			// ÅĞ¶Ï
+			// åˆ¤æ–­
 			if (guessNumber > number) {
-				System.out.println("Äú²ÂµÄÊı¾İ" + guessNumber + "´óÁË£¡");
+				System.out.println("æ‚¨çŒœçš„æ•°æ®" + guessNumber + "å¤§äº†ï¼");
 			} else if (guessNumber < number) {
-				System.out.println("Äú²ÂµÄÊı¾İ" + guessNumber + "Ğ¡ÁË£¡");
+				System.out.println("æ‚¨çŒœçš„æ•°æ®" + guessNumber + "å°äº†ï¼");
 			} else {
-				System.out.println("¹§Ï²Äú£¬" + count + "´Î²ÂÖĞÀ²£¡");
+				System.out.println("æ­å–œæ‚¨ï¼Œ" + count + "æ¬¡çŒœä¸­å•¦ï¼");
 				break;
 			}
 		}
