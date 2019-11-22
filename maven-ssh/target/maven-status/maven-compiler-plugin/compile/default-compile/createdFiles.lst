@@ -1,0 +1,6 @@
+com\cxg\dao\CustomerDao.class
+com\cxg\web\action\CustomerAction.class
+com\cxg\domain\Customer.class
+com\cxg\service\impl\CustomerServiceImpl.class
+com\cxg\service\CustomerService.class
+com\cxg\dao\impl\CustomerDaoImpl.class
