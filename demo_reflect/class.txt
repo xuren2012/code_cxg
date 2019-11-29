@@ -1,0 +1,2 @@
+className=com.cxg.edu.refelect.test.Worker
+methodName=study
